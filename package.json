@@ -1,0 +1,18 @@
+{
+  "name": "gcc-stat-website",
+  "version": "1.0.0",
+  "description": "Official Marketing & Support Portal for GCC Stat Mobile App (Apple App Store & Employee Services)",
+  "scripts": {
+    "start": "npx serve -l 3000 .",
+    "dev": "npx serve -l 3000 ."
+  },
+  "keywords": [
+    "gcc-stat",
+    "gcc",
+    "employee-self-service",
+    "app-store-support",
+    "marketing"
+  ],
+  "author": "Statistical Centre for the Cooperation Council for the Arab Countries of the Gulf (GCC-STAT)",
+  "license": "UNLICENSED"
+}

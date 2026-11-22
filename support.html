@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support &amp; Help Desk | GCC Stat Mobile App</title>
+  <meta name="description" content="Official Support and Help Desk for GCC Stat Mobile Application. Find answers to common questions or contact the GCC-STAT IT support team.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/app-icon.png">
+  <link rel="apple-touch-icon" href="assets/images/app-icon.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Cairo:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-wrapper">
+        <img src="assets/images/brand-icon.png" alt="GCC-STAT Logo" class="brand-logo">
+        <div class="brand-title-group">
+          <span class="brand-title">GCC STAT</span>
+          <span class="brand-subtitle">Support Center</span>
+        </div>
+      </a>
+
+      <button class="menu-toggle" aria-label="Toggle Navigation Menu">☰</button>
+
+      <ul class="nav-links">
+        <li><a href="index.html#features">Features</a></li>
+        <li><a href="index.html#screens">App Screens</a></li>
+        <li><a href="index.html#security">Security</a></li>
+        <li><a href="support.html" class="active">Support Desk</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="index.html" class="btn-header">Back to App Overview</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Support Header -->
+  <header class="hero" style="padding: 60px 0 40px; text-align: center;">
+    <div class="container" style="max-width: 820px;">
+      <div class="hero-badge">
+        <span class="pulse-dot"></span>
+        <span>Official Support Desk</span>
+      </div>
+      <h1 class="hero-title" style="font-size: 2.75rem;">
+        How Can We Assist You?
+      </h1>
+      <p class="hero-desc">
+        Welcome to the official support hub for the GCC Stat Employee Self Service (ESS) mobile app. If you are experiencing technical difficulties, account access issues, or workflow delays, our IT &amp; HR support teams are here to help.
+      </p>
+    </div>
+  </header>
+
+  <!-- Support Channels & Form -->
+  <section class="support-section">
+    <div class="container support-grid">
+      <!-- Contact Channels -->
+      <div class="support-channels">
+        <h2 style="font-size: 1.8rem; color: var(--dark-navy); margin-bottom: 8px;">Direct Support Channels</h2>
+        <p style="color: var(--text-secondary); margin-bottom: 24px;">Connect directly with the institutional IT operations unit.</p>
+
+        <div class="channel-card">
+          <div class="channel-icon">✉️</div>
+          <div class="channel-info">
+            <h4>IT Help Desk Email</h4>
+            <p>For application issues, login errors, or technical bugs:</p>
+            <a href="mailto:support@gccstat.org">support@gccstat.org</a>
+          </div>
+        </div>
+
+        <div class="channel-card">
+          <div class="channel-icon">🏢</div>
+          <div class="channel-info">
+            <h4>HR &amp; Personnel Operations</h4>
+            <p>For questions on leave policies, payroll inquiries, and employee credentials:</p>
+            <a href="mailto:hr@gccstat.org">hr@gccstat.org</a>
+          </div>
+        </div>
+
+        <div class="channel-card">
+          <div class="channel-icon">📞</div>
+          <div class="channel-info">
+            <h4>Phone &amp; Working Hours</h4>
+            <p>Sunday – Thursday: 07:30 AM – 02:30 PM (GST / UTC+4)</p>
+            <a href="tel:+96824346400">+968 2434 6400</a>
+          </div>
+        </div>
+
+        <div class="channel-card">
+          <div class="channel-icon">📍</div>
+          <div class="channel-info">
+            <h4>Headquarters Address</h4>
+            <p>Statistical Centre for the Cooperation Council for the Arab Countries of the Gulf (GCC-STAT)</p>
+            <span style="font-size: 0.88rem; color: #64748b;">P.O. Box 840, PC 133, Al Khuwair, Muscat, Sultanate of Oman</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Submit a Ticket Form -->
+      <div class="contact-form-box" id="contact-form">
+        <h3 style="font-size: 1.5rem; color: var(--dark-navy); margin-bottom: 6px;">Submit a Support Inquiry</h3>
+        <p style="color: var(--text-secondary); font-size: 0.92rem; margin-bottom: 24px;">Fill out this form and a ticket will be routed directly to the GCC-STAT support desk.</p>
+
+        <div id="formSuccess" style="display: none; background: #e8f5ee; border: 1px solid #0b5e3e; color: #0b5e3e; padding: 14px; border-radius: 8px; margin-bottom: 20px; font-size: 0.92rem; font-weight: 600;">
+          ✓ Your support inquiry has been received. Our IT team will contact you within 24 business hours.
+        </div>
+
+        <form id="supportForm">
+          <div class="form-group">
+            <label for="fullName">Full Name *</label>
+            <input type="text" id="fullName" class="form-control" placeholder="e.g. Abdullah Al-Harthy" required>
+          </div>
+
+          <div class="form-group">
+            <label for="employeeId">Employee ID *</label>
+            <input type="text" id="employeeId" class="form-control" placeholder="e.g. GCC-1042" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Official GCC-STAT Email *</label>
+            <input type="email" id="email" class="form-control" placeholder="e.g. yourname@gccstat.org" required>
+          </div>
+
+          <div class="form-group">
+            <label for="category">Issue Category *</label>
+            <select id="category" class="form-control" required>
+              <option value="">Select a category</option>
+              <option value="login">Login / Authentication Failure</option>
+              <option value="password">Password Reset Request</option>
+              <option value="approval">Pending Leave / Approval Sync</option>
+              <option value="attendance">Biometric Attendance Discrepancy</option>
+              <option value="payslip">Payroll / Payslip Download Issue</option>
+              <option value="device">Device Compatibility / Crash Report</option>
+              <option value="other">Other Inquiry</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="deviceModel">Device &amp; iOS Version</label>
+            <input type="text" id="deviceModel" class="form-control" placeholder="e.g. iPhone 15 Pro, iOS 18.1">
+          </div>
+
+          <div class="form-group">
+            <label for="description">Detailed Description of Issue *</label>
+            <textarea id="description" class="form-control" placeholder="Please provide steps to reproduce the issue or error messages received..." required></textarea>
+          </div>
+
+          <button type="submit" class="form-submit-btn">Send Support Request</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq-section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Self-Service Help</div>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">Quick solutions for common questions regarding the GCC Stat mobile app.</p>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>How do I get an account to log in to the app?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              The GCC Stat application is an enterprise internal application. In accordance with GCC-STAT security policies, self-registration is disabled. Your account credentials (Employee ID and initial secure password) are created and assigned directly by the GCC-STAT Human Resources Department upon appointment.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>What should I do if I forget my password?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              To reset your password, contact the GCC-STAT IT Help Desk at <a href="mailto:support@gccstat.org">support@gccstat.org</a> or submit a ticket using the form above. After identity verification with your official employee email and staff ID, a temporary password reset token will be dispatched to your registered institutional email.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Why is my submitted leave request not appearing under approved records?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Leave applications follow a multi-tier approval workflow (Replacement Colleague confirmation &rarr; Direct Line Manager &rarr; Department Director &rarr; HR Finalization). You can check the real-time stage of your application under <strong>Leave History &rarr; Stage Status</strong>. If a request is urgent, you can remind your supervisor directly.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>How can I view and download my monthly PDF payslip?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Navigate to the <strong>Payroll</strong> module from the home dashboard or bottom navigation. Select the desired fiscal year and month, then tap on the <em>Download Payslip (PDF)</em> button. The document will open in the native iOS document previewer and can be saved or printed securely.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Why do my biometric attendance records take time to appear?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Biometric check-in and check-out logs are synchronized from physical office biometric turnstiles to the central SAP HANA database in automated 15-minute intervals. If your attendance does not show up after 30 minutes, submit an <em>Attendance Regularization Request</em> directly through the app.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Which Apple iOS devices and operating system versions are supported?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              The GCC Stat app is compatible with iPhone and iPad devices running <strong>iOS 14.0 or later</strong>. We recommend keeping your device updated to the latest iOS version for optimal performance, security patches, and biometric Face ID / Touch ID convenience.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div style="background: #ffffff; display: inline-flex; padding: 6px 14px; border-radius: 8px; margin-bottom: 16px;">
+            <img src="assets/images/brand-logo-full.png" alt="GCC-STAT" style="height: 36px; width: auto; display: block;">
+          </div>
+          <p>
+            Statistical Centre for the Cooperation Council for the Arab Countries of the Gulf (المركز الإحصائي لدول مجلس التعاون لدول الخليج العربية)
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Application</h5>
+          <ul>
+            <li><a href="index.html#features">Features</a></li>
+            <li><a href="index.html#screens">Screenshots</a></li>
+            <li><a href="index.html#security">Security</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Support</h5>
+          <ul>
+            <li><a href="#contact-form">Submit a Ticket</a></li>
+            <li><a href="mailto:support@gccstat.org">support@gccstat.org</a></li>
+            <li><a href="tel:+96824346400">+968 2434 6400</a></li>
+            <li><a href="#faq">Knowledge Base</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Legal &amp; Policy</h5>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="https://gccstat.org" target="_blank" rel="noopener">Official GCC-STAT Portal</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="copyright-text">
+          &copy; 2026 Statistical Centre for the Cooperation Council for the Arab Countries of the Gulf (GCC-Stat). All rights reserved.
+        </div>
+        <div style="color: #64748b; font-size: 0.8rem;">
+          Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
