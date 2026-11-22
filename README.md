@@ -24,11 +24,11 @@ When submitting the **GCC Stat** app on App Store Connect, use the following exa
 > **App Store Connect Instruction:**  
 > *"A URL with support information for your app. This appears on your app’s product page once you release your app on the App Store."*
 
-**Entry:**
+**Live GitHub Pages Entry:**
 ```text
-https://your-domain.com/support.html
+https://sumitranjandroider.github.io/gcc_stat_website/support.html
 ```
-*(Or `https://your-domain.com/support` if using clean URLs/redirects, or `https://gccstat.org/app/support`)*
+*(Or custom domain `https://your-domain.com/support.html`)*
 
 **Features included on this page:**
 - GCC-STAT IT Help Desk direct contact (`support@gccstat.org`, phone `+968 2434 6400`)
@@ -42,11 +42,11 @@ https://your-domain.com/support.html
 > **App Store Connect Instruction:**  
 > *"A URL with marketing information about your app. This URL will be visible on the App Store."*
 
-**Entry:**
+**Live GitHub Pages Entry:**
 ```text
-https://your-domain.com/index.html
+https://sumitranjandroider.github.io/gcc_stat_website/
 ```
-*(Or `https://your-domain.com/`)*
+*(Or custom domain `https://your-domain.com/`)*
 
 **Features included on this page:**
 - High-fidelity product showcase featuring official GCC-STAT branding & mobile app screenshots
@@ -60,10 +60,11 @@ https://your-domain.com/index.html
 > **App Store Connect & Google Play Console Instruction:**  
 > *"A URL that links to your company's privacy policy. A privacy policy is required for all apps."*
 
-**Entry for Both Stores:**
+**Live GitHub Pages Entry (Both Stores):**
 ```text
-https://your-domain.com/privacy.html
+https://sumitranjandroider.github.io/gcc_stat_website/privacy.html
 ```
+*(Or custom domain `https://your-domain.com/privacy.html`)*
 
 ---
 
